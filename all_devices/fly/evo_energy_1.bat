@@ -29,7 +29,6 @@ rmdir /S /Q %Dini%
 rmdir /S /Q %Dwnld%
 
 del %CD%\START.bat
-del %CD%\evo_energy_1.bat
 del %CD%\evo_energy_1.ps1
-
+del %CD%\evo_energy_1.bat
 echo info: ALL DONE!
