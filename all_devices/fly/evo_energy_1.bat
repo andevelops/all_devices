@@ -28,7 +28,8 @@ xcopy /Y /R /E /Q %Dwnld%\I1_jBart_EE1_set-master %CD%
 rmdir /S /Q %Dini%
 rmdir /S /Q %Dwnld%
 
+echo info: ALL DONE!
+
 del %CD%\START.bat
 del %CD%\evo_energy_1.ps1
 del %CD%\evo_energy_1.bat
-echo info: ALL DONE!
