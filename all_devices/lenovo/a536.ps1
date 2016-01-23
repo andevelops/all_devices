@@ -6,4 +6,3 @@ $WebClient.DownloadFile($url,$path)
 $Url2 = "https://github.com/MIUI-v7-porters/I1_jBart_a536_set/archive/master.zip"
 $Path2 = "$curDir\Dwnld\I1_jBART_SET_a536_upd.zip" 
 $WebClient.DownloadFile($url2,$path2)
-MIUI-v7-porters
