@@ -22,8 +22,8 @@ echo info: Unpack main jBart.
 xcopy /Y /R /E /Q %Dwnld%\jBART-master %CD%
 
 echo info: Unpack SET for jBart.
-%Zip%\7z.exe x -y -r %Dwnld%\I1_jBART_SET_ET3_upd.zip -o%Dwnld%
-xcopy /Y /R /E /Q %Dwnld%\I1_jBart_ET3_set-master %CD%
+%Zip%\7z.exe x -y -r %Dwnld%\I1_jBART_SET_evo_tech_3_upd.zip -o%Dwnld%
+xcopy /Y /R /E /Q %Dwnld%\I1_jBart_evo_tech_3_set-master %CD%
 
 rmdir /S /Q %Dini%
 rmdir /S /Q %Dwnld%
